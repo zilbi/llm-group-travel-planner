@@ -1,0 +1,7 @@
+aiogram~=3.18.0
+aiosqlite~=0.21.0
+python-dotenv~=1.0.1
+requests~=2.32.3
+SQLAlchemy~=2.0.38
+yandex_cloud_ml_sdk
+-r test.txt

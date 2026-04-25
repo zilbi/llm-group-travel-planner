@@ -1,0 +1,111 @@
+"""
+            {
+              "trip": {
+                "id": "unique_trip_id",
+                "name": "Название путешествия",
+                "description": "Описание поездки",
+                "start_date": "YYYY-MM-DD",
+                "end_date": "YYYY-MM-DD",
+                "budget": {
+                  "total": 1000,
+                  "currency": "USD",
+                  "expenses": [
+                    {
+                      "category": "Транспорт",
+                      "amount": 300,
+                      "notes": "Авиабилеты"
+                    },
+                    {
+                      "category": "Проживание",
+                      "amount": 400,
+                      "notes": "Отель"
+                    },
+                    {
+                      "category": "Еда",
+                      "amount": 100,
+                      "notes": "Рестораны и кафе"
+                    }
+                  ]
+                },
+                "destinations": [
+                  {
+                    "city": "Название города",
+                    "country": "Страна",
+                    "arrival_date": "YYYY-MM-DD",
+                    "departure_date": "YYYY-MM-DD",
+                    "accommodation": {
+                      "name": "Название отеля/хостела",
+                      "address": "Адрес",
+                      "type": "Отель/Апартаменты",
+                      "cost_per_night": 100
+                    },
+                    "activities": [
+                      {
+                        "name": "Экскурсия в музей",
+                        "date": "YYYY-MM-DD",
+                        "time": "HH:MM",
+                        "cost": 20,
+                        "notes": "Билеты нужно купить заранее"
+                      },
+                      {
+                        "name": "Прогулка по парку",
+                        "date": "YYYY-MM-DD",
+                        "time": "HH:MM",
+                        "cost": 0,
+                        "notes": "Бесплатно"
+                      }
+                    ]
+                  }
+                ],
+                "transport": [
+                  {
+                    "type": "Авиаперелёт",
+                    "departure": {
+                      "city": "Город вылета",
+                      "date": "YYYY-MM-DD",
+                      "time": "HH:MM"
+                    },
+                    "arrival": {
+                      "city": "Город прилёта",
+                      "date": "YYYY-MM-DD",
+                      "time": "HH:MM"
+                    },
+                    "booking_reference": "ABC123",
+                    "cost": 250
+                  },
+                  {
+                    "type": "Поезд",
+                    "departure": {
+                      "city": "Город отправления",
+                      "date": "YYYY-MM-DD",
+                      "time": "HH:MM"
+                    },
+                    "arrival": {
+                      "city": "Город назначения",
+                      "date": "YYYY-MM-DD",
+                      "time": "HH:MM"
+                    },
+                    "booking_reference": "XYZ456",
+                    "cost": 50
+                  }
+                ],
+                "participants": [
+                  {
+                    "name": "Имя участника",
+                    "contact": "email/телефон",
+                    "role": "организатор/участник"
+                  }
+                ],
+                "checklist": [
+                  {
+                    "item": "Загранпаспорт",
+                    "completed": false
+                  },
+                  {
+                    "item": "Бронь отеля",
+                    "completed": true
+                  }
+                ],
+                "notes": "Дополнительные заметки о поездке"
+              }
+            }"""

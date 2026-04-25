@@ -1,0 +1,9 @@
+[tool.flake8]
+application-import-names = ["api", "commands", "db", "file", "ml"]
+import-order-style = "google"
+exclude = [".git", "__pycache__", ".venv"]
+inline-quotes = "double"
+ignore=["A001", "A002", "A003"]
+
+[tool.black]
+line-length = 79
