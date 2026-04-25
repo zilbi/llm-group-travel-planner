@@ -29,8 +29,8 @@ The project included:
 
 ## Materials
 
-- Architecture overview — to be added
-- Project presentation — to be added
+- [Architecture overview](docs/architecture.md)
+- [Project presentation](materials/project-presentation.pdf)
 - Certificate — to be added
 
 ## Status
