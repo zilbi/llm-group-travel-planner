@@ -31,7 +31,7 @@ The project included:
 
 - [Architecture overview](docs/architecture.md)
 - [Project presentation](materials/project-presentation.pdf)
-- [Diploma in Practical Programming and Data Analysis](./data-analysis-and-programming-school-diploma-2025.pdf)
+- [Diploma in Practical Programming and Data Analysis](./materials/data-analysis-and-programming-school-diploma-2025.pdf)
 
 ## Status
 
