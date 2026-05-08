@@ -27,6 +27,15 @@ The project included:
 - `main.py` — application entry point
 - `Dockerfile` — container configuration
 
+<p align="center">
+  <img src="materials/llm-travel-planner-presentation.jpg" width="750">
+</p>
+
+<p align="center">
+  <em>Presentation of the LLM-Based Group Travel Planner project.</em>
+</p>
+
+
 ## Materials
 
 - [Architecture overview](docs/architecture.md)
